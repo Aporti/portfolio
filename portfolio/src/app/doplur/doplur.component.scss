@@ -1,0 +1,86 @@
+@import '../../styles.scss';
+
+*{
+  text-decoration: none;
+}
+
+
+.title{
+  padding-top: 155px;
+  padding-left: 135px;
+  padding-right: 555px;
+  padding-bottom: 150px;
+  background-color: $primary-blue;
+  color: $primary-black;
+}
+
+.subTitle{
+  font-size: $paragraphOne-font-size;
+  color: $primary-black;
+}
+
+.titleParagraph{
+  padding-left: 600px;
+  padding-right: 600px;
+  padding-bottom: 213px;
+  font-size: $paragraphTwo-font-size;
+  background-color: $primary-blue;
+  color: $primary-black;
+}
+
+.topPic {
+  background-color: $primary-blue;
+  padding-left: 30vw;
+  padding-right: 45px;
+  padding-bottom: 200px;
+}
+
+.navbar {
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
+  font-family: $paragraphTwo-font-size;
+  background-color: $primary-blue;
+  color: $primary-black;
+}
+
+.navLinks{
+  font-size: $paragraphTwo-font-size;
+  color: $primary-black;
+}
+
+.exhibitWrapper{
+  background-color: $primary-blue;
+  color: $primary-black;
+  padding-bottom: 200px;
+}
+
+.exhibitContainer{
+  padding-right: 45px;
+  padding-left: 45px;
+}
+
+
+.summaryContainer{
+  width: 393px;
+}
+
+.jobImage{
+  height: 423px;
+  width: 855px;
+}
+
+.summaryContainer p {
+  font-size: $paragraphTwo-font-size;
+}
+
+a[href^="mailto:"] {
+  color: $primary-black;
+}
+
+.footer{
+  color: $primary-black;
+  background-color: $primary-white;
+}
+
+

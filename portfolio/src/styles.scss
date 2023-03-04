@@ -1,0 +1,54 @@
+
+
+$primary-white: #EFEFEF;
+$primary-black: #070707;
+$primary-blue: #449DD1;
+$primary-red: #ED254E;
+$primary-green: #81C14B;
+
+
+$headingOne-font-size: 128px;
+$headingTwo-font-size: 96px;
+$headingThree-font-size: 64px;
+$headingFour-font-size: 48px;
+$headingFive-font-size: 32px;
+
+
+$paragraphOne-font-size: 36px;
+$paragraphTwo-font-size: 24px;
+
+
+h1{
+  font-size: $headingOne-font-size;
+  font-family: 'Sarina',
+    cursive;
+}
+
+h2{
+  font-size: $headingTwo-font-size;
+  font-family: 'Sarina',
+    cursive;
+}
+
+h3{
+  font-size: $headingThree-font-size;
+}
+
+h4{
+  font-size: $headingFour-font-size;
+}
+
+h5{
+  font-size: $headingFive-font-size;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+p{
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+body{
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+

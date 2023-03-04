@@ -1,0 +1,66 @@
+
+@import '../../styles.scss';
+
+*{
+  text-decoration: none;
+}
+
+
+.navbar {
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
+  font-family: $paragraphTwo-font-size;
+  background-color: $primary-white;
+  color: $primary-black;
+}
+
+.heroContainer{
+  height: 80vh;
+  background-color: $primary-white;
+  color: $primary-black;
+}
+
+.navLinks{
+  font-size: $paragraphTwo-font-size;
+  color: $primary-black;
+}
+
+.topSection{
+  padding-top: 270px;
+  background-color: $primary-black;
+  color: $primary-white;
+  padding-bottom: 174px;
+}
+
+.about {
+  font-size: $paragraphTwo-font-size;
+}
+
+.aboutSubsection{
+  font-size: $paragraphOne-font-size;
+  max-width: 495px;
+}
+
+.jobImage{
+  width: 900px;
+  height: 540px;
+}
+
+.jobWrapper{
+  background-color: $primary-black;
+  color: $primary-white;
+  padding-bottom: 283px;
+}
+
+.bottomText{
+  margin-bottom: 100px;
+}
+
+.footer{
+  background-color: $primary-white;
+}
+
+a[href^="mailto:"] {
+  color: $primary-black;
+}
